@@ -23,7 +23,7 @@ object MyBuild extends Build {
 
       ReleaseKeys.releaseProcess := Seq[ReleaseStep](
         ReleaseStateTransformations.checkSnapshotDependencies,
-        ReleaseStateTransformations.inquireVersions,
+        //ReleaseStateTransformations.inquireVersions,
         ReleaseStateTransformations.runTest,
         ReleaseStateTransformations.setReleaseVersion,
         ReleaseStateTransformations.commitReleaseVersion,
