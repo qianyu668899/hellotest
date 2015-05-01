@@ -4,7 +4,7 @@
 		module="hellotest-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20150430173834"
+		publication="20150501111425"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>

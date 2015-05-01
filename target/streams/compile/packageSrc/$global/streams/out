@@ -1,7 +1,0 @@
-[0m[[0minfo[0m] [0mPackaging /Users/Yu/OMtest/ScalaHub/HelloTest/target/scala-2.11/hellotest_2.11-0.1.0-sources.jar ...[0m
-[0m[[0mdebug[0m] [0mInput file mappings:[0m
-[0m[[0mdebug[0m] [0m	com/yu/start/package.scala[0m
-[0m[[0mdebug[0m] [0m	  /Users/Yu/OMtest/ScalaHub/HelloTest/src/main/scala/com/yu/start/package.scala[0m
-[0m[[0mdebug[0m] [0m	MongoDB/package.scala[0m
-[0m[[0mdebug[0m] [0m	  /Users/Yu/OMtest/ScalaHub/HelloTest/src/main/scala/MongoDB/package.scala[0m
-[0m[[0minfo[0m] [0mDone packaging.[0m
