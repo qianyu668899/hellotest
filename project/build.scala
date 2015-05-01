@@ -10,7 +10,6 @@ object MyBuild extends Build {
     base = file("."),
     settings = Defaults.defaultSettings ++ releaseSettings ++ Seq(/* custom settings here */
       organization := "qianyu668899",
-      version := "0.1.0",
       scalaVersion := "2.11.6",
       libraryDependencies ++= List(
         mongoDb,
