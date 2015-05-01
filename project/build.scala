@@ -19,7 +19,7 @@ object MyBuild extends Build {
           Some(Resolver.file("file",  new File(".cache/repos/snapshots" )) )
         else
           Some(Resolver.file("file",  new File(".cache/repos/release" )) )
-      },
+      }
 
       /*ReleaseKeys.releaseProcess := Seq[ReleaseStep](
         ReleaseStateTransformations.checkSnapshotDependencies,
