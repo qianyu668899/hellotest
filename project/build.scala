@@ -16,9 +16,9 @@ object MyBuild extends Build {
       ),
       publishTo :=  {
         if (isSnapshot.value)
-            Some("snapshots" at ".cache/repos/snapshots")
+          Some(Resolver.file("file",  new File(".cache/repos/snapshots" )) )
         else
-            Some("releases"  at ".cache/repos/release")
+          Some(Resolver.file("file",  new File(".cache/repos/release" )) )
       },
 
       ReleaseKeys.releaseProcess := Seq[ReleaseStep](
