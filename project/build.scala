@@ -1,19 +1,21 @@
 import sbtrelease.ReleasePlugin._
 import sbt._
 import sbt.Keys._
+import spray.revolver.RevolverPlugin._
 
 object MyBuild extends Build {
   lazy val HelloTest = Project(
     id = "HelloTest",
     base = file("."),
-    settings = Defaults.defaultSettings ++ releaseSettings ++ Seq( /* custom settings here */
-      organization := "https://github.com/qianyu668899",
+    settings = Defaults.defaultSettings ++ releaseSettings ++ Seq(/* custom settings here */
+      organization := "qianyu668899",
       version := "0.1.0",
       scalaVersion := "2.11.6",
       libraryDependencies ++= List(
         mongoDb,
         log
       )
+      //publishTo := Some("My Github repos" at "https://github.com/qianyu668899/hellotest.git")
     )
   )
 
