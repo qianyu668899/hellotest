@@ -21,7 +21,7 @@ object MyBuild extends Build {
           Some(Resolver.file("file",  new File(".cache/repos/release" )) )
       },
 
-      ReleaseKeys.releaseProcess := Seq[ReleaseStep](
+      /*ReleaseKeys.releaseProcess := Seq[ReleaseStep](
         ReleaseStateTransformations.checkSnapshotDependencies,
         ReleaseStateTransformations.inquireVersions,
         ReleaseStateTransformations.runTest,
@@ -32,7 +32,7 @@ object MyBuild extends Build {
         ReleaseStateTransformations.setNextVersion,
         ReleaseStateTransformations.commitNextVersion,
         ReleaseStateTransformations.pushChanges
-      )
+      )*/
     )
   )
 
