@@ -1,5 +1,5 @@
 //publishTo := Some("Sonatype Snapshots Nexus" at "https://github.com")
-publishTo := Some(Resolver.file("file",  new File( "~/.omsignal/bver/test/hellotest" )) )
+publishTo := Some(Resolver.file("file",  new File(".cache/repos/" )) )
 
 publishMavenStyle := false
 
