@@ -24,7 +24,7 @@ object MyBuild extends Build {
         ReleaseStateTransformations.setReleaseVersion,
         ReleaseStateTransformations.commitReleaseVersion,
         ReleaseStateTransformations.tagRelease,
-        //ReleaseStateTransformations.publishArtifacts, // disable publishArtifacts until we have a nexus/artifactory
+        ReleaseStateTransformations.publishArtifacts, // disable publishArtifacts until we have a nexus/artifactory
         ReleaseStateTransformations.setNextVersion,
         ReleaseStateTransformations.commitNextVersion,
         ReleaseStateTransformations.pushChanges
