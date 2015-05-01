@@ -1,21 +1,26 @@
-import sbtrelease.{ReleaseStateTransformations, ReleaseStep, ReleasePlugin}
+import sbtrelease.{ReleaseStateTransformations, ReleaseStep}
 import sbtrelease.ReleasePlugin._
 import sbt._
 import sbt.Keys._
-import spray.revolver.RevolverPlugin._
 
 object MyBuild extends Build {
   lazy val HelloTest = Project(
     id = "HelloTest",
     base = file("."),
     settings = Defaults.defaultSettings ++ releaseSettings ++ Seq(/* custom settings here */
-      organization := "qianyu668899",
+      organization := "yu",
       scalaVersion := "2.11.6",
       libraryDependencies ++= List(
         mongoDb,
         log
       ),
-      //publishTo := Some("My Github repos" at "https://github.com/qianyu668899/hellotest.git")
+      publishTo :=  {
+        if (isSnapshot.value)
+            Some("snapshots" at ".cache/repos/snapshots")
+        else
+            Some("releases"  at ".cache/repos/release")
+      },
+
       ReleaseKeys.releaseProcess := Seq[ReleaseStep](
         ReleaseStateTransformations.checkSnapshotDependencies,
         ReleaseStateTransformations.inquireVersions,
