@@ -1,0 +1,6 @@
+[0m[[0mdebug[0m] [0mlocal do not support transaction. ivy pattern does not use revision as a directory[0m
+[0m[[0minfo[0m] [0m	published hellotest_2.11 to /Users/Yu/.ivy2/local/yu.personal/hellotest_2.11/0.1.0/poms/hellotest_2.11.pom[0m
+[0m[[0minfo[0m] [0m	published hellotest_2.11 to /Users/Yu/.ivy2/local/yu.personal/hellotest_2.11/0.1.0/jars/hellotest_2.11.jar[0m
+[0m[[0minfo[0m] [0m	published hellotest_2.11 to /Users/Yu/.ivy2/local/yu.personal/hellotest_2.11/0.1.0/srcs/hellotest_2.11-sources.jar[0m
+[0m[[0minfo[0m] [0m	published hellotest_2.11 to /Users/Yu/.ivy2/local/yu.personal/hellotest_2.11/0.1.0/docs/hellotest_2.11-javadoc.jar[0m
+[0m[[0minfo[0m] [0m	published ivy to /Users/Yu/.ivy2/local/yu.personal/hellotest_2.11/0.1.0/ivys/ivy.xml[0m

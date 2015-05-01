@@ -1,0 +1,25 @@
+[0m[[0minfo[0m] [0mPackaging /Users/Yu/OMtest/ScalaHub/HelloTest/target/scala-2.11/hellotest_2.11-0.1.0.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	com/yu[0m
+[0m[[0mdebug[0m] [0m	  /Users/Yu/OMtest/ScalaHub/HelloTest/target/scala-2.11/classes/com/yu[0m
+[0m[[0mdebug[0m] [0m	MongoDB/package.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/Yu/OMtest/ScalaHub/HelloTest/target/scala-2.11/classes/MongoDB/package.class[0m
+[0m[[0mdebug[0m] [0m	MongoDB[0m
+[0m[[0mdebug[0m] [0m	  /Users/Yu/OMtest/ScalaHub/HelloTest/target/scala-2.11/classes/MongoDB[0m
+[0m[[0mdebug[0m] [0m	com/yu/start/package$$anonfun$update$1.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/Yu/OMtest/ScalaHub/HelloTest/target/scala-2.11/classes/com/yu/start/package$$anonfun$update$1.class[0m
+[0m[[0mdebug[0m] [0m	com/yu/start/package.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/Yu/OMtest/ScalaHub/HelloTest/target/scala-2.11/classes/com/yu/start/package.class[0m
+[0m[[0mdebug[0m] [0m	com/yu/start/package$$anonfun$remove$1.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/Yu/OMtest/ScalaHub/HelloTest/target/scala-2.11/classes/com/yu/start/package$$anonfun$remove$1.class[0m
+[0m[[0mdebug[0m] [0m	com/yu/start/package$.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/Yu/OMtest/ScalaHub/HelloTest/target/scala-2.11/classes/com/yu/start/package$.class[0m
+[0m[[0mdebug[0m] [0m	MongoDB/package$.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/Yu/OMtest/ScalaHub/HelloTest/target/scala-2.11/classes/MongoDB/package$.class[0m
+[0m[[0mdebug[0m] [0m	com[0m
+[0m[[0mdebug[0m] [0m	  /Users/Yu/OMtest/ScalaHub/HelloTest/target/scala-2.11/classes/com[0m
+[0m[[0mdebug[0m] [0m	com/yu/start[0m
+[0m[[0mdebug[0m] [0m	  /Users/Yu/OMtest/ScalaHub/HelloTest/target/scala-2.11/classes/com/yu/start[0m
+[0m[[0mdebug[0m] [0m	com/yu/start/package$$anonfun$getCursor$1.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/Yu/OMtest/ScalaHub/HelloTest/target/scala-2.11/classes/com/yu/start/package$$anonfun$getCursor$1.class[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

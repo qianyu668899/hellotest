@@ -1,0 +1,19 @@
+compile
+run
+sbt clean compile
+sbt clean
+clean
+~ compile
+test
+package
+help
+reload
+run
+exit
+compile
+run
+exit
+inspect test:fullClasspath
+inspect HelloTest
+inspect name:HelloTest
+exit
