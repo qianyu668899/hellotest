@@ -7,4 +7,6 @@ publishTo <<= (version) { version: String =>
   Some(Resolver.url(name, new URL(url))(Resolver.ivyStylePatterns))
 }
 
+publishMavenStyle := false
+
 credentials += Credentials("Github repos", "github.com", "qianyu668899", "qsjy81zwxy")
