@@ -1,11 +1,4 @@
-publishTo <<= (version) { version: String =>
-  val scalasbt = "https://github.com/"
-  val (name, url) = if (version.contains("-SNAPSHOT"))
-    (" ", scalasbt+" ")
-  else
-    (" ", scalasbt+" ")
-  Some(Resolver.url(name, new URL(url))(Resolver.ivyStylePatterns))
-}
+publishTo := Some("Sonatype Snapshots Nexus" at "https://github.com/qianyu668899/")
 
 publishMavenStyle := false
 
