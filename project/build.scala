@@ -33,7 +33,7 @@ object MyBuild extends Build {
       publishMavenStyle := false,
       // Enable JAR export for staging
       exportJars := true,
-      crossScalaVersions := Seq("2.8.2", "2.9.2", "2.10.0"),
+      crossScalaVersions := Seq("2.10.3"),
       ReleaseKeys.releaseProcess := Seq[ReleaseStep](
         ReleaseStateTransformations.checkSnapshotDependencies,
         ReleaseStateTransformations.inquireVersions,
