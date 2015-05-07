@@ -1,13 +1,7 @@
-import com.typesafe.sbt.SbtNativePackager
-import com.typesafe.sbt.SbtNativePackager.packageArchetype._
-import com.typesafe.sbt.packager.universal.UniversalPlugin
-import com.typesafe.sbt.packager.universal.UniversalPlugin.autoImport._
 import sbtrelease.{ReleaseStateTransformations, ReleaseStep}
 import sbtrelease.ReleasePlugin._
 import sbt._
 import sbt.Keys._
-import com.typesafe.sbt.packager.SettingsHelper.makeDeploymentSettings
-
 
 object MyBuild extends Build {
   lazy val HelloTest = Project(
