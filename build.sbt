@@ -1,6 +1,6 @@
-import com.typesafe.sbt.packager.SettingsHelper.makeDeploymentSettings
+//import com.typesafe.sbt.packager.SettingsHelper.makeDeploymentSettings
 
-makeDeploymentSettings(Universal, packageBin in Universal, "zip")
+//makeDeploymentSettings(Universal, packageBin in Universal, "zip")
 
-enablePlugins(UniversalPlugin, SbtNativePackager)
+//enablePlugins(UniversalPlugin, SbtNativePackager)
 //addPackage(Universal, packageZipTarball in Universal, "tgz")
