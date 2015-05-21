@@ -14,7 +14,8 @@ object MyBuild extends Build {
       scalaVersion := "2.11.6",
       libraryDependencies ++= List(
         mongoDb,
-        log
+        log,
+        test
       ),
       publishTo :=  {
         if (isSnapshot.value)
@@ -27,7 +28,6 @@ object MyBuild extends Build {
       publishMavenStyle := false,
       // Enable JAR export for staging
       exportJars := true,
-      crossScalaVersions := Seq("2.10.3"),
       ReleaseKeys.releaseProcess := Seq[ReleaseStep](
         ReleaseStateTransformations.checkSnapshotDependencies,
         ReleaseStateTransformations.inquireVersions,
@@ -44,5 +44,6 @@ object MyBuild extends Build {
   )
   val mongoDb = "org.mongodb" %% "casbah"% "2.7.3"
   val log = "ch.qos.logback" % "logback-classic" % "1.1.2"
+  var test = "org.specs2" %% "specs2" % "2.3.1" % "test"
 
 }
