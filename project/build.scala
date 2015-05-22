@@ -44,6 +44,6 @@ object MyBuild extends Build {
   )
   val mongoDb = "org.mongodb" %% "casbah"% "2.7.3"
   val log = "ch.qos.logback" % "logback-classic" % "1.1.2"
-  var test = "org.specs2" %% "specs2" % "2.3.1" % "test"
+  var test = "org.specs2" %% "specs2" % "2.4.9" % "test"
 
 }
