@@ -17,4 +17,10 @@ class Test extends Specification {
       "Hello world" must endWith("world")
     }
   }
+
+  "Simple test" {
+    "is numeric" in {
+      "Hello world" must have size(11)
+    }
+  }
 }
