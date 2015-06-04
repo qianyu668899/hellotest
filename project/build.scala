@@ -17,6 +17,8 @@ object MyBuild extends Build {
         log,
         test
       ),
+      resolvers += "scalaz-bintray" at "http://dl.bintray.com/scalaz/releases",
+      scalacOptions in Test ++= Seq("-Yrangepos"),
       publishTo :=  {
         if (isSnapshot.value)
           Some(Resolver.file("file",  new File(".cache/repos/snapshots" )) )
@@ -44,6 +46,6 @@ object MyBuild extends Build {
   )
   val mongoDb = "org.mongodb" %% "casbah"% "2.7.3"
   val log = "ch.qos.logback" % "logback-classic" % "1.1.2"
-  var test = "org.specs2" %% "specs2" % "2.3.1" % "test"
+  var test = "org.specs2" %% "specs2-core" % "3.6.1" % "test"
 
 }

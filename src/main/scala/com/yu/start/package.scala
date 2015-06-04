@@ -15,6 +15,7 @@ package object start {
     update(mongoClient, "test")
     remove(mongoClient, "test")
     drop(mongoClient, "test")
+    //("s" \ "qianyu").text
   }
 
   def insert(mongoClient: MongoClient, dbName:String): Unit = {
