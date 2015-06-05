@@ -18,7 +18,7 @@ class Test extends Specification {
     }
   }
 
-  "Simple test" should {
+  ignore should {
     "is numeric" in {
       "Hello world" must have size(11)
     }
