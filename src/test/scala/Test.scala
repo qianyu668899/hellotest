@@ -18,9 +18,16 @@ class Test extends Specification {
     }
   }
 
-  "Simple test" should {
-    "is numeric" in {
-      "Hello world" must have size(11).orSkip
-    }
+  "Test pending" should {
+     "is numeric" in {
+      "Hello world" must have size(110)
+    }.pendingUntilFixed
   }
+
+  "Test skip" should {
+    "is numeric" in {
+      "Hello world" must have size(11)
+    }.pending
+  }
+
 }
