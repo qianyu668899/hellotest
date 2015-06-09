@@ -24,10 +24,4 @@ class Test extends Specification {
     }.pendingUntilFixed
   }
 
-  "Test skip" should {
-    "is numeric" in {
-      "Hello world" must have size(11)
-    }.pending
-  }
-
 }
