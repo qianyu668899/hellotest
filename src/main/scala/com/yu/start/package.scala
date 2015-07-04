@@ -8,6 +8,7 @@ import com.mongodb.casbah.Imports._
 
 package object start {
   def main(args: Array[String]) {
+    /*
     val mongoClient = MongoClient("localhost", 27017)
     insert(mongoClient, "test")
     //println(getCount(mongoClient, "test"))
@@ -15,7 +16,9 @@ package object start {
     update(mongoClient, "test")
     remove(mongoClient, "test")
     drop(mongoClient, "test")
-    //("s" \ "qianyu").text
+    //("s" \ "qianyu").text*/
+    algo  = new Algo()
+    algo.reverse([1, 4, 3, 0, 6])
   }
 
   def insert(mongoClient: MongoClient, dbName:String): Unit = {
