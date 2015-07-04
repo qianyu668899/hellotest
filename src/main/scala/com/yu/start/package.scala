@@ -17,8 +17,8 @@ package object start {
     remove(mongoClient, "test")
     drop(mongoClient, "test")
     //("s" \ "qianyu").text*/
-    algo  = new Algo()
-    algo.reverse([1, 4, 3, 0, 6])
+    val algo  = new Algo()
+    println(algo.reverse(List(1, 4, 3, 0, 6)))
   }
 
   def insert(mongoClient: MongoClient, dbName:String): Unit = {
